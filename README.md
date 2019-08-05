@@ -13,6 +13,16 @@
     - Zuul : API Gateway
     
  - Configuration Server, Tracing, Monitoring
+
+## 프로젝트 구성
+
+- Maven Multi Project
+
+- display 
+   - port : 8081
+   
+- product
+   - port : 8082    
  
 ## 참고자료
 
@@ -21,14 +31,6 @@
 - [DZone](https://dzone.com/articles/what-are-microservices-actually)
  
 
-## 프로젝트 구성
 
- - Maven Multi Project
- 
- - display 
-    - port : 8081
-    
- - product
-    - port : 8082    
  
  
