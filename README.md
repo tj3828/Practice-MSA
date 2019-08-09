@@ -31,6 +31,7 @@
 - [DZone](https://dzone.com/articles/what-are-microservices-actually)
 - [Wikipedia](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
 - [Netflix Blog](https://medium.com/netflix-techblog/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
+- [Service Registry](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
  
 
 
