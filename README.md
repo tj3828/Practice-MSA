@@ -23,6 +23,9 @@
    
 - product
    - port : 8082    
+
+- eureka (Server)
+   - port : 8761
  
 ## 참고자료
 
