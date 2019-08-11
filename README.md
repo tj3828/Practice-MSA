@@ -26,6 +26,9 @@
 
 - eureka (Server)
    - port : 8761
+
+- zuul 
+   - port : 8765
  
 ## 참고자료
 
