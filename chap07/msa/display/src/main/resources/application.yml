@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+
+hystrix:
+  command:
+    productInfo:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+      circuitBreaker:
+        requestVolumeThreshold: 1
+        errorThresholdPercentage: 50
+    FeignProductRemoteService#getProductInfo(String):
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+      circuitBreaker:
+       requestVolumeThreshold: 1
+       errorThresholdPercentage: 50
+
+feign:
+  hystrix:
+    enabled: true
+
+
+product:
+  ribbon:
+#  listOfServers: localhost:7777, localhost:8082
+   MaxAutoRetries: 1
+   MaxAutoRetriesNextServer: 1
+
+spring:
+  application:
+    name: display
