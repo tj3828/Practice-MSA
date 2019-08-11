@@ -35,6 +35,7 @@
 - [Wikipedia](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
 - [Netflix Blog](https://medium.com/netflix-techblog/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
 - [Service Registry](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
+- [배달의 민족 API Gateway](http://woowabros.github.io/r&d/2017/06/13/apigateway.html)
  
 
 
